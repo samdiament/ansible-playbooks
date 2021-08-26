@@ -1,0 +1,10 @@
+---
+- name: check for yum updates
+  hosts: diamentlan
+  become: yes
+  
+  tasks:
+    - name: run yum update
+      yum:
+        name: '*'
+        state: latest

@@ -43,11 +43,11 @@
 ## db-[99:101]-node.example.com
 
 [local]
-rh-sandbox.lan
+ansible_tower ansible_host=rh-sandbox.lan
 
 [diamentlan]
-rh-sandbox.lan
-sstcsoftball.lan
+ansible_tower ansible_host=rh-sandbox.lan
+sstcsoftball ansible_host=sstcsoftball.lan
 
 [all:vars]
 ansible_user=sam

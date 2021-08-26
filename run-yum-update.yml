@@ -1,6 +1,6 @@
 ---
 - name: check for yum updates
-  hosts: diamentlan
+  hosts: all
   become: yes
   
   tasks:
